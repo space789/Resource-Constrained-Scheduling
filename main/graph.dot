@@ -1,0 +1,14 @@
+digraph G {
+    "A" -> "and1";
+    "A" -> "and2";
+    "B" -> "and1";
+    "B" -> "and4";
+    "B" -> "or2";
+    "C" -> "or1";
+    "C" -> "and4";
+    "and1" -> "and2";
+    "and2" -> "or1";
+    "and2" -> "and3";
+    "and4" -> "or2";
+    "or1" -> "and3";
+}

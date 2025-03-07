@@ -1,0 +1,8 @@
+\ Model (null)_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ sched_once_and1: = 1
+Bounds
+End
